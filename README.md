@@ -52,3 +52,41 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+## Tahapan Praktek
+
+- Mengaktifkan Ekstentasi XAMPP
+![image](https://github.com/ristof5/lab11_php_c4/assets/116700466/9a98b32c-29d9-475c-9119-16d6adbc402c)
+teks ada disekitar line 900
+bila sudah mendownload codeigniter, ekstrak file ke folder htdocs anda
+
+- Menjalankan CLI
+buka shell xampp lalu Arahkan lokasi direktori sesuai dengan direktori kerja project dibuat (xampp/htdocs/lab11_php_ci/ci4/)
+
+lalu ketik "php spark"
+![Screenshot (112)](https://github.com/ristof5/lab11_php_c4/assets/116700466/673da8dc-ebdf-4015-9d92-f37f6fe0be3b)
+
+- Membuat routes baru
+Tambahkan kode berikut di dalam Routes.php
+$routes->get('/about', 'Page::about');
+$routes->get('/contact', 'Page::contact');
+$routes->get('/faqs', 'Page::faqs');
+
+Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut.
+php spark routes
+![Screenshot (115)](https://github.com/ristof5/lab11_php_c4/assets/116700466/f20f042d-b834-4a5a-b745-99e53fa63330)
+
+Untuk mencoba file lakukan ini di CLI terlebih dahulu "php spark serve"
+![Screenshot (126)](https://github.com/ristof5/lab11_php_c4/assets/116700466/32175c72-e73e-4320-8281-62e54dc137c7)
+
+lalu Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url
+http://localhost:8080/about
+
+- membuat view
+membuat header lalu di lokasi app/view/template/header.php
+![Screenshot (124)](https://github.com/ristof5/lab11_php_c4/assets/116700466/7d34448d-844e-4009-97fa-b4786dafd016)
+
+membuat footer lalu di lokasi app/view/template/footer.php
+![Screenshot (125)](https://github.com/ristof5/lab11_php_c4/assets/116700466/713caca8-50b7-4bf0-aeba-44f06b0b5443)
+
+
