@@ -89,4 +89,11 @@ membuat header lalu di lokasi app/view/template/header.php
 membuat footer lalu di lokasi app/view/template/footer.php
 ![Screenshot (125)](https://github.com/ristof5/lab11_php_c4/assets/116700466/713caca8-50b7-4bf0-aeba-44f06b0b5443)
 
+untuk cssnya simpan di direktori public
+![image](https://github.com/ristof5/lab11_php_c4/assets/116700466/0dc4831e-dde8-4e93-a5fd-b2e67e76e99b)
+hasilnya
+![Screenshot (122)](https://github.com/ristof5/lab11_php_c4/assets/116700466/c37877c4-73e5-49fa-80fe-64d60ba9807a)
+Terima kasih
+
+
 
